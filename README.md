@@ -6,12 +6,12 @@ Built for the Multimedia Systems Design course (USC).
 
 ## Demo
 
-Scrambled input (rotated, scattered pieces) &rarr; solved output, on `images/StarryNight_Rotate.png`:
+### `images/test_regular_rotate.png` (rotated pieces)
 
 <table>
 <tr>
-<td><img src="docs/demo/starry_night_scrambled.png" width="380" alt="Scrambled Starry Night pieces"></td>
-<td><img src="docs/demo/starry_night_solved.png" width="380" alt="Solved Starry Night puzzle"></td>
+<td><img src="docs/demo/test_regular_rotate_scrambled.png" width="380" alt="Scrambled, rotated puzzle pieces"></td>
+<td><img src="docs/demo/test_regular_rotate_solved.png" width="380" alt="Solved puzzle, rotation corrected"></td>
 </tr>
 <tr>
 <td align="center">Scrambled</td>
@@ -19,9 +19,22 @@ Scrambled input (rotated, scattered pieces) &rarr; solved output, on `images/Sta
 </tr>
 </table>
 
-Full solve animation (pieces flying from their scrambled position/rotation into place):
+![Rotate puzzle solving animation](docs/demo/test_regular_rotate_solve.gif)
 
-![Puzzle solving animation](docs/demo/starry_night_solve.gif)
+### `images/test_regular_translate.png` (scattered, unrotated pieces)
+
+<table>
+<tr>
+<td><img src="docs/demo/test_regular_translate_scrambled.png" width="380" alt="Scrambled, translated puzzle pieces"></td>
+<td><img src="docs/demo/test_regular_translate_solved.png" width="380" alt="Solved puzzle"></td>
+</tr>
+<tr>
+<td align="center">Scrambled</td>
+<td align="center">Solved</td>
+</tr>
+</table>
+
+![Translate puzzle solving animation](docs/demo/test_regular_translate_solve.gif)
 
 ## How it works
 
