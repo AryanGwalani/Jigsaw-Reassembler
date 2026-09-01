@@ -4,6 +4,25 @@ A Java/Swing application that automatically reassembles a scrambled jigsaw puzzl
 
 Built for the Multimedia Systems Design course (USC).
 
+## Demo
+
+Scrambled input (rotated, scattered pieces) &rarr; solved output, on `images/StarryNight_Rotate.png`:
+
+<table>
+<tr>
+<td><img src="docs/demo/starry_night_scrambled.png" width="380" alt="Scrambled Starry Night pieces"></td>
+<td><img src="docs/demo/starry_night_solved.png" width="380" alt="Solved Starry Night puzzle"></td>
+</tr>
+<tr>
+<td align="center">Scrambled</td>
+<td align="center">Solved</td>
+</tr>
+</table>
+
+Full solve animation (pieces flying from their scrambled position/rotation into place):
+
+![Puzzle solving animation](docs/demo/starry_night_solve.gif)
+
 ## How it works
 
 1. **Piece extraction** (`PieceExtractor`) — pieces are located either as connected foreground components (irregular puzzles) or by tiling the image into a uniform grid as a fallback (`tileImage`).
@@ -45,7 +64,9 @@ Key tunables live as constants at the top of `PuzzleSolver.java`:
 ## Project structure
 
 ```
-PuzzleSolver.java   # Entire application (extraction, solving, animation)
-SOLUTION.md          # Debugging notes for a translate-puzzle rotation bug
-images/              # Sample scrambled puzzle images used as test input
+PuzzleSolver.java     # Entire application (extraction, solving, animation)
+SOLUTION.md           # Debugging notes for a translate-puzzle rotation bug
+images/               # Sample scrambled puzzle images used as test input
+scripts/RenderDemo.java  # Headless renderer used to generate the demo images/GIF above
+docs/demo/            # Demo screenshots and animation shown in this README
 ```
