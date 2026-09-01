@@ -6,21 +6,6 @@ Built for the Multimedia Systems Design course (USC).
 
 ## Demo
 
-### `images/test_regular_rotate.png` (rotated pieces)
-
-<table>
-<tr>
-<td><img src="docs/demo/test_regular_rotate_scrambled.png" width="380" alt="Scrambled, rotated puzzle pieces"></td>
-<td><img src="docs/demo/test_regular_rotate_solved.png" width="380" alt="Solved puzzle, rotation corrected"></td>
-</tr>
-<tr>
-<td align="center">Scrambled</td>
-<td align="center">Solved</td>
-</tr>
-</table>
-
-![Rotate puzzle solving animation](docs/demo/test_regular_rotate_solve.gif)
-
 ### `images/test_regular_translate.png` (scattered, unrotated pieces)
 
 <table>
@@ -35,6 +20,21 @@ Built for the Multimedia Systems Design course (USC).
 </table>
 
 ![Translate puzzle solving animation](docs/demo/test_regular_translate_solve.gif)
+
+### `images/test_regular_rotate.png` (rotated pieces)
+
+<table>
+<tr>
+<td><img src="docs/demo/test_regular_rotate_scrambled.png" width="380" alt="Scrambled, rotated puzzle pieces"></td>
+<td><img src="docs/demo/test_regular_rotate_solved.png" width="380" alt="Solved puzzle, rotation corrected"></td>
+</tr>
+<tr>
+<td align="center">Scrambled</td>
+<td align="center">Solved</td>
+</tr>
+</table>
+
+![Rotate puzzle solving animation](docs/demo/test_regular_rotate_solve.gif)
 
 ## How it works
 
