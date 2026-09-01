@@ -44,7 +44,7 @@ Built for the Multimedia Systems Design course (USC).
 4. **Assembly** (`PuzzleAssembler`) — pieces are placed into a grid by greedily matching edges using Mean Squared Error (MSE) between edge signatures; regular-grid and irregular-layout solving are handled separately.
 5. **Animation** (`AnimationWindow` / `AnimationPanel`) — a Swing window animates each piece flying from its scrambled position/rotation into its solved position.
 
-See [SOLUTION.md](SOLUTION.md) for notes on a specific bug (translate-puzzle edge corruption from unnecessary rotation correction) and its fix.
+Rotation correction runs on every piece regardless of puzzle type; it only rotates/re-crops a piece when the detected angle is >= 1 degree, so a true translate puzzle is a no-op unless the detector misfires. See [SOLUTION.md](SOLUTION.md) for debugging notes on a case where that misdetection corrupted piece edges, and the proposed (not currently wired in) fix of skipping rotation correction entirely for translate-only puzzles.
 
 ## Requirements
 
