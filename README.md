@@ -83,3 +83,7 @@ images/               # Sample scrambled puzzle images used as test input
 scripts/RenderDemo.java  # Headless renderer used to generate the demo images/GIF above
 docs/demo/            # Demo screenshots and animation shown in this README
 ```
+
+## License
+
+[MIT](LICENSE)
